@@ -1,4 +1,4 @@
-# DSPBoard DSP
+# DSPBoard PCB
 
 This repository have PCB files from DSPBoard project, this requieres KiCAD 7.0+, includes a .zip with gerbers to fabrication.
 
