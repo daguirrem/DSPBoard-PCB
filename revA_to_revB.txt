@@ -1,0 +1,16 @@
+Revisión de cambios de Rev.A -> Rev.B
+
+Críticos:
+- STM32F4xx pin BYPASS_REG se conecta a tierra para activar el regulador interno de voltaje del MCU.
+- Una parte de la malla de GND estaba sin conexión debido a una interrpción de las lienas de alimentación del USB.
+- Se agrega un capacitor adicional en la salida del DAC R2R directo (sin filtrado). Pues esta linea no estaba desacoplada.
+
+Otros:
+- Se agrega pin +5v en header SWD.
+- Se corrije el skillscreen del header SWD, pues estaba invertido.
+- Se hace claridad de qué periférico se está usando en cada Header. E.j. SPI -> SPI2; I2C -> I2C1, ETC.
+- Se cambia el símbolo del boot0 de un selector a un botón.
+- Se agrega un header de alimentación cerca a la protoboard.
+- Se agrega un LED adicional (PH10).
+- Se hace anotación adicional en pines (PB3, PB4 y PB5) Los cuales pueden ser usados como SPI3 o I2S3.
+- Se añade QR para acceder al repositorio DSP Board SDK

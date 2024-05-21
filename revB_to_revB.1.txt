@@ -1,0 +1,5 @@
+Revisión de cambios de Rev.B -> Rev.B.1
+
+Otros:
+- Mejoras menores en enrutamiento de planos de tierra y GND.
+- Correción menor de skillscreen J21; se agregan 2 pines faltantes: G2 y B12.
